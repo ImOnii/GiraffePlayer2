@@ -140,11 +140,7 @@ public class VideoInfo implements Parcelable {
         return this;
     }
 
-    /**
-     * add player init option
-     * @param option option
-     * @return VideoInfo
-     */
+
     public VideoInfo addOptions(Collection<Option> options) {
         this.options.addAll(options);
         return this;

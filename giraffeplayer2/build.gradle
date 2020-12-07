@@ -24,9 +24,9 @@ android {
 
 dependencies {
     api fileTree(include: ['*.jar'], dir: 'libs')
-    testImplementation 'junit:junit:4.12'
+    testImplementation 'junit:junit:4.13.1'
     api 'com.github.tcking:viewquery:1.6'
-    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
     api "com.github.tcking:ijkplayer-java:${ijkVersion}"
 
     if ("" == bType) {
